@@ -1,0 +1,33 @@
+.divHoldingImages {
+  /* border: 2px; */
+  display: grid;
+  /* grid-gap: 5px; */
+  grid-template-columns: 200px 200px 200px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  padding: 2% 34%;
+}
+.imageClick {
+  cursor: pointer;
+}
+
+.headDiv__placeHolder {
+  padding-top: 1%;
+  text-align: center;
+}
+.sideDiv {
+  display: flex;
+  flex: 33%;
+  flex-direction: row;
+  position: relative;
+  padding-bottom: 7%;
+  padding-right: 13%;
+}
+.innerDiv {
+  display: grid;
+  /* border: 2px solid red; */
+  grid-template-columns: 200px 200px 200px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  padding: 2% 34%;
+}
